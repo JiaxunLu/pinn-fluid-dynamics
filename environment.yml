@@ -1,0 +1,19 @@
+name: pinn-fluid
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - torch
+      - tqdm
+      - pyyaml
+      - ruff
+      - black
+      - pytest
