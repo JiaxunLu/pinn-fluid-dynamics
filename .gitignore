@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+*.pt
+*.pth
+
+# Logs
+wandb/
+runs/
